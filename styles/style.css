@@ -227,7 +227,7 @@
   row-gap: 10px;
 }
 
-.section__galery:not:(:last-child) {
+.section__galery:not(:last-child) {
   row-gap: 10px;
 }
 
