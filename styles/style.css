@@ -6,9 +6,11 @@
   margin-inline: 0;
   color: var(--text-color, #f1b2ce);
   background-color: var(--bg-color, #000028);
-  font-family: var(----main-font, IBM Plex Mono, sans-serif);
+  font-family: var(----main-font, IBM Plex Mono), sans-serif;
   background-image: var(--bg-image, url(/images/cover-image-dark.png));
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   inline-size: 100%;
   background-attachment: fixed;
 }
@@ -92,6 +94,7 @@
 }
 
 .header__theme-menu-button {
+  font-family: var(--main-font, IBM Plex Mono), sans-serif;
   font-size: var(--font-size-text, 18px);
   line-height: 18px;
   padding-inline-start: 13px;
@@ -120,6 +123,7 @@
 }
 
 .header__theme-menu-button_active {
+  outline: 1px solid var(--button-color, #ff0070);
   pointer-events: none;
 }
 
@@ -210,7 +214,7 @@
 }
 
 .section__link:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid var(--effect-link-color, #f1b2ce);
 }
 
 .section__link:focus {
@@ -219,7 +223,7 @@
 
 .section__link:focus-visible {
   text-decoration: none;
-  outline: 1px solid var(--accent-color);
+  outline: 1px solid var(--effect-link-color, #f1b2ce);
 }
 
 .section__galery {
