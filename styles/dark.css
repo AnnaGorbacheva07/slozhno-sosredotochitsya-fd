@@ -16,7 +16,7 @@
   --section-title-color: var(--accent-color, #ff0070);
   --effect-color: rgba(255, 0, 112, 0.4);
   --dec-element-display: inline-block;
-  --bg-image: url(/images/cover-image-dark.png);
+  --bg-image: url(../images/cover-image-dark.png);
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
@@ -36,6 +36,6 @@
     --section-title-color: var(--accent-color, #ff0070);
     --effect-color: rgba(255, 0, 112, 0.4);
     --dec-element-display: inline-block;
-    --bg-image: url(/images/cover-image-dark.png);
+    --bg-image: url(../images/cover-image-dark.png);
   }
 }

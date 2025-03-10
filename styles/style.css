@@ -7,7 +7,7 @@
   color: var(--text-color, #f1b2ce);
   background-color: var(--bg-color, #000028);
   font-family: var(----main-font, IBM Plex Mono), sans-serif;
-  background-image: var(--bg-image, url(/images/cover-image-dark.png));
+  background-image: var(--bg-image, url(../images/cover-image-dark.png));
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

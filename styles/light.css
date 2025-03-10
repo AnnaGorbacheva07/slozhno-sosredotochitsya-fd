@@ -14,7 +14,7 @@
   --button-color: var(--accent-color-text, #353430);
   --section-title-color: var(--accent-color-text, #353430);
   --effect-color: rgba(50, 49, 45, 0.4);
-  --bg-image: url(/images/cover-image-light.png);
+  --bg-image: url(../images/cover-image-light.png);
 }
 
 @media (prefers-color-scheme: light) {
@@ -30,6 +30,6 @@
     --button-color: var(--accent-color-text, #353430);
     --section-title-color: var(--accent-color-text, #353430);
     --effect-color: rgba(50, 49, 45, 0.4);
-    --bg-image: url(/images/cover-image-light.png);
+    --bg-image: url(../images/cover-image-light.png);
   }
 }

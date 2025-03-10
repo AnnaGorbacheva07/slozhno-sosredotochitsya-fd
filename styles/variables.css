@@ -18,7 +18,7 @@
   --main-font: IBM Plex Mono;
   --reg-font-weight: 400;
   --b-font-weight: 700;
-  --bg-image: url(/images/cover-image-dark.png);
+  --bg-image: url(../images/cover-image-dark.png);
   --font-size-text: 18px;
   --lh-text: 23.4px;
 }
